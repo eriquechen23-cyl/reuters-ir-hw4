@@ -1,0 +1,2949 @@
+{
+  "summary": {
+    "tfidf": {
+      "P@10": 0.8266666666666667,
+      "MRR": 0.9047619047619048,
+      "nDCG@10": 0.8339114290588545
+    },
+    "cbow": {
+      "P@10": 0.8800000000000001,
+      "MRR": 0.8666666666666667,
+      "nDCG@10": 0.8645798887244118
+    },
+    "sg": {
+      "P@10": 0.88,
+      "MRR": 0.9166666666666666,
+      "nDCG@10": 0.8813381907568396
+    }
+  },
+  "rows": [
+    {
+      "query": "corporate profit earnings",
+      "topic": "earn",
+      "method": "tfidf",
+      "P@10": 0.9,
+      "MRR": 1.0,
+      "nDCG@10": 0.9337457765456111
+    },
+    {
+      "query": "corporate profit earnings",
+      "topic": "earn",
+      "method": "cbow",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "corporate profit earnings",
+      "topic": "earn",
+      "method": "sg",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "quarterly net income",
+      "topic": "earn",
+      "method": "tfidf",
+      "P@10": 0.9,
+      "MRR": 1.0,
+      "nDCG@10": 0.9216017310213249
+    },
+    {
+      "query": "quarterly net income",
+      "topic": "earn",
+      "method": "cbow",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "quarterly net income",
+      "topic": "earn",
+      "method": "sg",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "company loss results",
+      "topic": "earn",
+      "method": "tfidf",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "company loss results",
+      "topic": "earn",
+      "method": "cbow",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "company loss results",
+      "topic": "earn",
+      "method": "sg",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "company acquisition merger",
+      "topic": "acq",
+      "method": "tfidf",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "company acquisition merger",
+      "topic": "acq",
+      "method": "cbow",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "company acquisition merger",
+      "topic": "acq",
+      "method": "sg",
+      "P@10": 0.9,
+      "MRR": 1.0,
+      "nDCG@10": 0.9052116356304495
+    },
+    {
+      "query": "takeover bid shares",
+      "topic": "acq",
+      "method": "tfidf",
+      "P@10": 0.9,
+      "MRR": 1.0,
+      "nDCG@10": 0.9216017310213249
+    },
+    {
+      "query": "takeover bid shares",
+      "topic": "acq",
+      "method": "cbow",
+      "P@10": 0.9,
+      "MRR": 1.0,
+      "nDCG@10": 0.9148568823583791
+    },
+    {
+      "query": "takeover bid shares",
+      "topic": "acq",
+      "method": "sg",
+      "P@10": 0.9,
+      "MRR": 1.0,
+      "nDCG@10": 0.9266360779006402
+    },
+    {
+      "query": "purchase stake company",
+      "topic": "acq",
+      "method": "tfidf",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "purchase stake company",
+      "topic": "acq",
+      "method": "cbow",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "purchase stake company",
+      "topic": "acq",
+      "method": "sg",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "crude oil prices",
+      "topic": "crude",
+      "method": "tfidf",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "crude oil prices",
+      "topic": "crude",
+      "method": "cbow",
+      "P@10": 0.9,
+      "MRR": 1.0,
+      "nDCG@10": 0.9052116356304495
+    },
+    {
+      "query": "crude oil prices",
+      "topic": "crude",
+      "method": "sg",
+      "P@10": 0.9,
+      "MRR": 1.0,
+      "nDCG@10": 0.9266360779006402
+    },
+    {
+      "query": "petroleum production opec",
+      "topic": "crude",
+      "method": "tfidf",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "petroleum production opec",
+      "topic": "crude",
+      "method": "cbow",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "petroleum production opec",
+      "topic": "crude",
+      "method": "sg",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "oil supply exports",
+      "topic": "crude",
+      "method": "tfidf",
+      "P@10": 0.0,
+      "MRR": 0.07142857142857142,
+      "nDCG@10": 0.0
+    },
+    {
+      "query": "oil supply exports",
+      "topic": "crude",
+      "method": "cbow",
+      "P@10": 0.4,
+      "MRR": 0.5,
+      "nDCG@10": 0.3718350524306282
+    },
+    {
+      "query": "oil supply exports",
+      "topic": "crude",
+      "method": "sg",
+      "P@10": 0.5,
+      "MRR": 0.25,
+      "nDCG@10": 0.3863474142462609
+    },
+    {
+      "query": "wheat grain exports",
+      "topic": "grain",
+      "method": "tfidf",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "wheat grain exports",
+      "topic": "grain",
+      "method": "cbow",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "wheat grain exports",
+      "topic": "grain",
+      "method": "sg",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "corn crop harvest",
+      "topic": "grain",
+      "method": "tfidf",
+      "P@10": 0.6,
+      "MRR": 1.0,
+      "nDCG@10": 0.6185197008414423
+    },
+    {
+      "query": "corn crop harvest",
+      "topic": "grain",
+      "method": "cbow",
+      "P@10": 0.9,
+      "MRR": 0.5,
+      "nDCG@10": 0.77990823370192
+    },
+    {
+      "query": "corn crop harvest",
+      "topic": "grain",
+      "method": "sg",
+      "P@10": 0.7,
+      "MRR": 1.0,
+      "nDCG@10": 0.8006937664098821
+    },
+    {
+      "query": "grain supply agriculture",
+      "topic": "grain",
+      "method": "tfidf",
+      "P@10": 0.8,
+      "MRR": 1.0,
+      "nDCG@10": 0.7917063341896683
+    },
+    {
+      "query": "grain supply agriculture",
+      "topic": "grain",
+      "method": "cbow",
+      "P@10": 0.9,
+      "MRR": 1.0,
+      "nDCG@10": 0.9363792118010485
+    },
+    {
+      "query": "grain supply agriculture",
+      "topic": "grain",
+      "method": "sg",
+      "P@10": 1.0,
+      "MRR": 1.0,
+      "nDCG@10": 1.0000000000000002
+    },
+    {
+      "query": "international trade deficit",
+      "topic": "trade",
+      "method": "tfidf",
+      "P@10": 0.8,
+      "MRR": 0.5,
+      "nDCG@10": 0.70654431160256
+    },
+    {
+      "query": "international trade deficit",
+      "topic": "trade",
+      "method": "cbow",
+      "P@10": 0.8,
+      "MRR": 0.5,
+      "nDCG@10": 0.713654010247531
+    },
+    {
+      "query": "international trade deficit",
+      "topic": "trade",
+      "method": "sg",
+      "P@10": 0.8,
+      "MRR": 0.5,
+      "nDCG@10": 0.70654431160256
+    },
+    {
+      "query": "import export tariffs",
+      "topic": "trade",
+      "method": "tfidf",
+      "P@10": 0.8,
+      "MRR": 1.0,
+      "nDCG@10": 0.8357804136936722
+    },
+    {
+      "query": "import export tariffs",
+      "topic": "trade",
+      "method": "cbow",
+      "P@10": 0.5,
+      "MRR": 1.0,
+      "nDCG@10": 0.5669450709942983
+    },
+    {
+      "query": "import export tariffs",
+      "topic": "trade",
+      "method": "sg",
+      "P@10": 0.8,
+      "MRR": 1.0,
+      "nDCG@10": 0.8048109992093391
+    },
+    {
+      "query": "trade surplus japan",
+      "topic": "trade",
+      "method": "tfidf",
+      "P@10": 0.7,
+      "MRR": 1.0,
+      "nDCG@10": 0.7791714369672128
+    },
+    {
+      "query": "trade surplus japan",
+      "topic": "trade",
+      "method": "cbow",
+      "P@10": 0.9,
+      "MRR": 0.5,
+      "nDCG@10": 0.77990823370192
+    },
+    {
+      "query": "trade surplus japan",
+      "topic": "trade",
+      "method": "sg",
+      "P@10": 0.7,
+      "MRR": 1.0,
+      "nDCG@10": 0.7631925784528224
+    }
+  ],
+  "rankings": [
+    {
+      "query": "corporate profit earnings",
+      "topic": "earn",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 20419,
+          "score": 0.22704508900642395,
+          "relevant": true
+        },
+        {
+          "id": 16806,
+          "score": 0.22426384687423706,
+          "relevant": true
+        },
+        {
+          "id": 20927,
+          "score": 0.22272352874279022,
+          "relevant": true
+        },
+        {
+          "id": 20976,
+          "score": 0.21735692024230957,
+          "relevant": true
+        },
+        {
+          "id": 21208,
+          "score": 0.21633706986904144,
+          "relevant": true
+        },
+        {
+          "id": 16912,
+          "score": 0.21143202483654022,
+          "relevant": true
+        },
+        {
+          "id": 21106,
+          "score": 0.206424281001091,
+          "relevant": true
+        },
+        {
+          "id": 21460,
+          "score": 0.20451006293296814,
+          "relevant": true
+        },
+        {
+          "id": 17651,
+          "score": 0.20363843441009521,
+          "relevant": false
+        },
+        {
+          "id": 16561,
+          "score": 0.20349375903606415,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "corporate profit earnings",
+      "topic": "earn",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 15979,
+          "score": 0.7780354022979736,
+          "relevant": true
+        },
+        {
+          "id": 16824,
+          "score": 0.7041468024253845,
+          "relevant": true
+        },
+        {
+          "id": 16495,
+          "score": 0.6975706815719604,
+          "relevant": true
+        },
+        {
+          "id": 14993,
+          "score": 0.6877782344818115,
+          "relevant": true
+        },
+        {
+          "id": 16343,
+          "score": 0.6866143941879272,
+          "relevant": true
+        },
+        {
+          "id": 16711,
+          "score": 0.6861773729324341,
+          "relevant": true
+        },
+        {
+          "id": 15263,
+          "score": 0.6823240518569946,
+          "relevant": true
+        },
+        {
+          "id": 16336,
+          "score": 0.6785154342651367,
+          "relevant": true
+        },
+        {
+          "id": 18514,
+          "score": 0.6750993728637695,
+          "relevant": true
+        },
+        {
+          "id": 14967,
+          "score": 0.6749284267425537,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "corporate profit earnings",
+      "topic": "earn",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 16824,
+          "score": 0.7854241132736206,
+          "relevant": true
+        },
+        {
+          "id": 15979,
+          "score": 0.7713392376899719,
+          "relevant": true
+        },
+        {
+          "id": 16711,
+          "score": 0.7535516023635864,
+          "relevant": true
+        },
+        {
+          "id": 15427,
+          "score": 0.7513434886932373,
+          "relevant": true
+        },
+        {
+          "id": 15263,
+          "score": 0.7483766078948975,
+          "relevant": true
+        },
+        {
+          "id": 15598,
+          "score": 0.7456991076469421,
+          "relevant": true
+        },
+        {
+          "id": 15967,
+          "score": 0.742538571357727,
+          "relevant": true
+        },
+        {
+          "id": 16644,
+          "score": 0.7412741184234619,
+          "relevant": true
+        },
+        {
+          "id": 16336,
+          "score": 0.7409631609916687,
+          "relevant": true
+        },
+        {
+          "id": 16141,
+          "score": 0.7399635314941406,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "quarterly net income",
+      "topic": "earn",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 16803,
+          "score": 0.32571232318878174,
+          "relevant": true
+        },
+        {
+          "id": 21036,
+          "score": 0.30930042266845703,
+          "relevant": true
+        },
+        {
+          "id": 16246,
+          "score": 0.2824315130710602,
+          "relevant": true
+        },
+        {
+          "id": 16687,
+          "score": 0.2757542133331299,
+          "relevant": true
+        },
+        {
+          "id": 21100,
+          "score": 0.2538027763366699,
+          "relevant": true
+        },
+        {
+          "id": 18664,
+          "score": 0.25215470790863037,
+          "relevant": false
+        },
+        {
+          "id": 15702,
+          "score": 0.24200139939785004,
+          "relevant": true
+        },
+        {
+          "id": 20191,
+          "score": 0.23747199773788452,
+          "relevant": true
+        },
+        {
+          "id": 16834,
+          "score": 0.22440080344676971,
+          "relevant": true
+        },
+        {
+          "id": 15759,
+          "score": 0.2187509387731552,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "quarterly net income",
+      "topic": "earn",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 15190,
+          "score": 0.7852071523666382,
+          "relevant": true
+        },
+        {
+          "id": 16394,
+          "score": 0.7813795804977417,
+          "relevant": true
+        },
+        {
+          "id": 16469,
+          "score": 0.7659575939178467,
+          "relevant": true
+        },
+        {
+          "id": 20668,
+          "score": 0.765156626701355,
+          "relevant": true
+        },
+        {
+          "id": 20493,
+          "score": 0.7628379464149475,
+          "relevant": true
+        },
+        {
+          "id": 16470,
+          "score": 0.7622199058532715,
+          "relevant": true
+        },
+        {
+          "id": 16468,
+          "score": 0.755915641784668,
+          "relevant": true
+        },
+        {
+          "id": 16392,
+          "score": 0.7550301551818848,
+          "relevant": true
+        },
+        {
+          "id": 16471,
+          "score": 0.7540740966796875,
+          "relevant": true
+        },
+        {
+          "id": 16472,
+          "score": 0.7540585994720459,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "quarterly net income",
+      "topic": "earn",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 16469,
+          "score": 0.8101427555084229,
+          "relevant": true
+        },
+        {
+          "id": 15197,
+          "score": 0.8036681413650513,
+          "relevant": true
+        },
+        {
+          "id": 16470,
+          "score": 0.8035467863082886,
+          "relevant": true
+        },
+        {
+          "id": 15299,
+          "score": 0.8027190566062927,
+          "relevant": true
+        },
+        {
+          "id": 16471,
+          "score": 0.7999106645584106,
+          "relevant": true
+        },
+        {
+          "id": 15208,
+          "score": 0.7997808456420898,
+          "relevant": true
+        },
+        {
+          "id": 15655,
+          "score": 0.7979507446289062,
+          "relevant": true
+        },
+        {
+          "id": 16473,
+          "score": 0.7971618175506592,
+          "relevant": true
+        },
+        {
+          "id": 16568,
+          "score": 0.7957730293273926,
+          "relevant": true
+        },
+        {
+          "id": 14934,
+          "score": 0.7940590381622314,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "company loss results",
+      "topic": "earn",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 17558,
+          "score": 0.3739068806171417,
+          "relevant": true
+        },
+        {
+          "id": 16918,
+          "score": 0.36126795411109924,
+          "relevant": true
+        },
+        {
+          "id": 16219,
+          "score": 0.33280038833618164,
+          "relevant": true
+        },
+        {
+          "id": 17975,
+          "score": 0.331106036901474,
+          "relevant": true
+        },
+        {
+          "id": 21222,
+          "score": 0.331059068441391,
+          "relevant": true
+        },
+        {
+          "id": 19474,
+          "score": 0.3167497515678406,
+          "relevant": true
+        },
+        {
+          "id": 15984,
+          "score": 0.3122749924659729,
+          "relevant": true
+        },
+        {
+          "id": 16911,
+          "score": 0.30540311336517334,
+          "relevant": true
+        },
+        {
+          "id": 20802,
+          "score": 0.29862427711486816,
+          "relevant": true
+        },
+        {
+          "id": 19466,
+          "score": 0.2910102605819702,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "company loss results",
+      "topic": "earn",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 16502,
+          "score": 0.7668464183807373,
+          "relevant": true
+        },
+        {
+          "id": 16219,
+          "score": 0.7546796798706055,
+          "relevant": true
+        },
+        {
+          "id": 16711,
+          "score": 0.7544535398483276,
+          "relevant": true
+        },
+        {
+          "id": 15979,
+          "score": 0.7495051622390747,
+          "relevant": true
+        },
+        {
+          "id": 21193,
+          "score": 0.7387213706970215,
+          "relevant": true
+        },
+        {
+          "id": 16602,
+          "score": 0.7354828715324402,
+          "relevant": true
+        },
+        {
+          "id": 15162,
+          "score": 0.734108567237854,
+          "relevant": true
+        },
+        {
+          "id": 19815,
+          "score": 0.7340116500854492,
+          "relevant": true
+        },
+        {
+          "id": 20976,
+          "score": 0.7270771265029907,
+          "relevant": true
+        },
+        {
+          "id": 20363,
+          "score": 0.7205265164375305,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "company loss results",
+      "topic": "earn",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 19815,
+          "score": 0.844402551651001,
+          "relevant": true
+        },
+        {
+          "id": 20976,
+          "score": 0.8399839401245117,
+          "relevant": true
+        },
+        {
+          "id": 18591,
+          "score": 0.825549840927124,
+          "relevant": true
+        },
+        {
+          "id": 20947,
+          "score": 0.8244929909706116,
+          "relevant": true
+        },
+        {
+          "id": 20529,
+          "score": 0.8166313171386719,
+          "relevant": true
+        },
+        {
+          "id": 17037,
+          "score": 0.8148764371871948,
+          "relevant": true
+        },
+        {
+          "id": 19787,
+          "score": 0.8136491775512695,
+          "relevant": true
+        },
+        {
+          "id": 21337,
+          "score": 0.8133474588394165,
+          "relevant": true
+        },
+        {
+          "id": 16602,
+          "score": 0.8128213882446289,
+          "relevant": true
+        },
+        {
+          "id": 20237,
+          "score": 0.811646580696106,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "company acquisition merger",
+      "topic": "acq",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 16583,
+          "score": 0.3319101333618164,
+          "relevant": true
+        },
+        {
+          "id": 19796,
+          "score": 0.310612291097641,
+          "relevant": true
+        },
+        {
+          "id": 18239,
+          "score": 0.30596038699150085,
+          "relevant": true
+        },
+        {
+          "id": 19240,
+          "score": 0.28195151686668396,
+          "relevant": true
+        },
+        {
+          "id": 17683,
+          "score": 0.2735256850719452,
+          "relevant": true
+        },
+        {
+          "id": 16465,
+          "score": 0.24663476645946503,
+          "relevant": true
+        },
+        {
+          "id": 18658,
+          "score": 0.2396494448184967,
+          "relevant": true
+        },
+        {
+          "id": 20835,
+          "score": 0.2295965552330017,
+          "relevant": true
+        },
+        {
+          "id": 18682,
+          "score": 0.22283650934696198,
+          "relevant": true
+        },
+        {
+          "id": 21376,
+          "score": 0.22057127952575684,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "company acquisition merger",
+      "topic": "acq",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 16465,
+          "score": 0.8172328472137451,
+          "relevant": true
+        },
+        {
+          "id": 19962,
+          "score": 0.7815588712692261,
+          "relevant": true
+        },
+        {
+          "id": 16041,
+          "score": 0.770636260509491,
+          "relevant": true
+        },
+        {
+          "id": 19796,
+          "score": 0.7689256072044373,
+          "relevant": true
+        },
+        {
+          "id": 19981,
+          "score": 0.7668931484222412,
+          "relevant": true
+        },
+        {
+          "id": 19758,
+          "score": 0.7665103673934937,
+          "relevant": true
+        },
+        {
+          "id": 19240,
+          "score": 0.759831428527832,
+          "relevant": true
+        },
+        {
+          "id": 14943,
+          "score": 0.7537003755569458,
+          "relevant": true
+        },
+        {
+          "id": 17787,
+          "score": 0.7511441707611084,
+          "relevant": true
+        },
+        {
+          "id": 19325,
+          "score": 0.7497130632400513,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "company acquisition merger",
+      "topic": "acq",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 16041,
+          "score": 0.778820276260376,
+          "relevant": true
+        },
+        {
+          "id": 16465,
+          "score": 0.7756794691085815,
+          "relevant": true
+        },
+        {
+          "id": 19240,
+          "score": 0.7500895261764526,
+          "relevant": true
+        },
+        {
+          "id": 15849,
+          "score": 0.7485225200653076,
+          "relevant": false
+        },
+        {
+          "id": 21401,
+          "score": 0.7455335259437561,
+          "relevant": true
+        },
+        {
+          "id": 19796,
+          "score": 0.7450286746025085,
+          "relevant": true
+        },
+        {
+          "id": 19758,
+          "score": 0.7440828084945679,
+          "relevant": true
+        },
+        {
+          "id": 16583,
+          "score": 0.741584062576294,
+          "relevant": true
+        },
+        {
+          "id": 17787,
+          "score": 0.7401466369628906,
+          "relevant": true
+        },
+        {
+          "id": 17589,
+          "score": 0.7395350337028503,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "takeover bid shares",
+      "topic": "acq",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 18959,
+          "score": 0.40887749195098877,
+          "relevant": true
+        },
+        {
+          "id": 19963,
+          "score": 0.3418302536010742,
+          "relevant": true
+        },
+        {
+          "id": 19900,
+          "score": 0.2704242765903473,
+          "relevant": true
+        },
+        {
+          "id": 20379,
+          "score": 0.2538157105445862,
+          "relevant": true
+        },
+        {
+          "id": 15600,
+          "score": 0.251079797744751,
+          "relevant": true
+        },
+        {
+          "id": 20773,
+          "score": 0.23899921774864197,
+          "relevant": false
+        },
+        {
+          "id": 19912,
+          "score": 0.2346762716770172,
+          "relevant": true
+        },
+        {
+          "id": 18585,
+          "score": 0.2284718155860901,
+          "relevant": true
+        },
+        {
+          "id": 15810,
+          "score": 0.2270774096250534,
+          "relevant": true
+        },
+        {
+          "id": 21003,
+          "score": 0.2251308709383011,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "takeover bid shares",
+      "topic": "acq",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 15600,
+          "score": 0.7723497152328491,
+          "relevant": true
+        },
+        {
+          "id": 18585,
+          "score": 0.7635558843612671,
+          "relevant": true
+        },
+        {
+          "id": 18566,
+          "score": 0.7625503540039062,
+          "relevant": true
+        },
+        {
+          "id": 19963,
+          "score": 0.7521353363990784,
+          "relevant": true
+        },
+        {
+          "id": 20773,
+          "score": 0.7488662004470825,
+          "relevant": false
+        },
+        {
+          "id": 19631,
+          "score": 0.743153989315033,
+          "relevant": true
+        },
+        {
+          "id": 21003,
+          "score": 0.7411887645721436,
+          "relevant": true
+        },
+        {
+          "id": 16247,
+          "score": 0.7315067052841187,
+          "relevant": true
+        },
+        {
+          "id": 16002,
+          "score": 0.7112265229225159,
+          "relevant": true
+        },
+        {
+          "id": 16395,
+          "score": 0.7094180583953857,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "takeover bid shares",
+      "topic": "acq",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 19900,
+          "score": 0.7363447546958923,
+          "relevant": true
+        },
+        {
+          "id": 15600,
+          "score": 0.7341619729995728,
+          "relevant": true
+        },
+        {
+          "id": 21003,
+          "score": 0.7334041595458984,
+          "relevant": true
+        },
+        {
+          "id": 18566,
+          "score": 0.7311964631080627,
+          "relevant": true
+        },
+        {
+          "id": 18585,
+          "score": 0.7239475250244141,
+          "relevant": true
+        },
+        {
+          "id": 20306,
+          "score": 0.7222981452941895,
+          "relevant": true
+        },
+        {
+          "id": 20773,
+          "score": 0.7187066078186035,
+          "relevant": false
+        },
+        {
+          "id": 20321,
+          "score": 0.7152712941169739,
+          "relevant": true
+        },
+        {
+          "id": 19631,
+          "score": 0.708379864692688,
+          "relevant": true
+        },
+        {
+          "id": 17701,
+          "score": 0.7071752548217773,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "purchase stake company",
+      "topic": "acq",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 16873,
+          "score": 0.22206707298755646,
+          "relevant": true
+        },
+        {
+          "id": 21071,
+          "score": 0.21038204431533813,
+          "relevant": true
+        },
+        {
+          "id": 16583,
+          "score": 0.20745499432086945,
+          "relevant": true
+        },
+        {
+          "id": 19706,
+          "score": 0.20643629133701324,
+          "relevant": true
+        },
+        {
+          "id": 16621,
+          "score": 0.18844030797481537,
+          "relevant": true
+        },
+        {
+          "id": 18336,
+          "score": 0.18647481501102448,
+          "relevant": true
+        },
+        {
+          "id": 21129,
+          "score": 0.1791718453168869,
+          "relevant": true
+        },
+        {
+          "id": 18988,
+          "score": 0.17199179530143738,
+          "relevant": true
+        },
+        {
+          "id": 19872,
+          "score": 0.17157872021198273,
+          "relevant": true
+        },
+        {
+          "id": 16444,
+          "score": 0.17117297649383545,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "purchase stake company",
+      "topic": "acq",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 20525,
+          "score": 0.8110002279281616,
+          "relevant": true
+        },
+        {
+          "id": 17728,
+          "score": 0.8047788143157959,
+          "relevant": true
+        },
+        {
+          "id": 16700,
+          "score": 0.7953656911849976,
+          "relevant": true
+        },
+        {
+          "id": 18334,
+          "score": 0.7910618782043457,
+          "relevant": true
+        },
+        {
+          "id": 15052,
+          "score": 0.7897806763648987,
+          "relevant": true
+        },
+        {
+          "id": 19737,
+          "score": 0.7858318090438843,
+          "relevant": true
+        },
+        {
+          "id": 16450,
+          "score": 0.7846968173980713,
+          "relevant": true
+        },
+        {
+          "id": 18986,
+          "score": 0.7834264039993286,
+          "relevant": true
+        },
+        {
+          "id": 19880,
+          "score": 0.7780541181564331,
+          "relevant": true
+        },
+        {
+          "id": 19435,
+          "score": 0.7726366519927979,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "purchase stake company",
+      "topic": "acq",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 15052,
+          "score": 0.7813041806221008,
+          "relevant": true
+        },
+        {
+          "id": 16700,
+          "score": 0.7798983454704285,
+          "relevant": true
+        },
+        {
+          "id": 18986,
+          "score": 0.7681925296783447,
+          "relevant": true
+        },
+        {
+          "id": 20525,
+          "score": 0.7666778564453125,
+          "relevant": true
+        },
+        {
+          "id": 19880,
+          "score": 0.7655869126319885,
+          "relevant": true
+        },
+        {
+          "id": 18334,
+          "score": 0.7532346248626709,
+          "relevant": true
+        },
+        {
+          "id": 19737,
+          "score": 0.7458940744400024,
+          "relevant": true
+        },
+        {
+          "id": 17728,
+          "score": 0.7438768148422241,
+          "relevant": true
+        },
+        {
+          "id": 19482,
+          "score": 0.7437043190002441,
+          "relevant": true
+        },
+        {
+          "id": 19666,
+          "score": 0.7387247681617737,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "crude oil prices",
+      "topic": "crude",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 20944,
+          "score": 0.44254738092422485,
+          "relevant": true
+        },
+        {
+          "id": 18680,
+          "score": 0.3799760639667511,
+          "relevant": true
+        },
+        {
+          "id": 18701,
+          "score": 0.3621538281440735,
+          "relevant": true
+        },
+        {
+          "id": 17875,
+          "score": 0.359094500541687,
+          "relevant": true
+        },
+        {
+          "id": 18746,
+          "score": 0.35714685916900635,
+          "relevant": true
+        },
+        {
+          "id": 21274,
+          "score": 0.33906352519989014,
+          "relevant": true
+        },
+        {
+          "id": 20420,
+          "score": 0.3386584520339966,
+          "relevant": true
+        },
+        {
+          "id": 18678,
+          "score": 0.33658644556999207,
+          "relevant": true
+        },
+        {
+          "id": 18810,
+          "score": 0.3309168815612793,
+          "relevant": true
+        },
+        {
+          "id": 18736,
+          "score": 0.32431918382644653,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "crude oil prices",
+      "topic": "crude",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 20944,
+          "score": 0.86680006980896,
+          "relevant": true
+        },
+        {
+          "id": 20420,
+          "score": 0.8189730644226074,
+          "relevant": true
+        },
+        {
+          "id": 18773,
+          "score": 0.8077607154846191,
+          "relevant": true
+        },
+        {
+          "id": 20406,
+          "score": 0.8062409162521362,
+          "relevant": false
+        },
+        {
+          "id": 18680,
+          "score": 0.8059036731719971,
+          "relevant": true
+        },
+        {
+          "id": 19193,
+          "score": 0.7949535846710205,
+          "relevant": true
+        },
+        {
+          "id": 16005,
+          "score": 0.7947691679000854,
+          "relevant": true
+        },
+        {
+          "id": 20919,
+          "score": 0.7928416728973389,
+          "relevant": true
+        },
+        {
+          "id": 18746,
+          "score": 0.7922102212905884,
+          "relevant": true
+        },
+        {
+          "id": 18736,
+          "score": 0.7870929837226868,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "crude oil prices",
+      "topic": "crude",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 20944,
+          "score": 0.8261382579803467,
+          "relevant": true
+        },
+        {
+          "id": 20420,
+          "score": 0.812298059463501,
+          "relevant": true
+        },
+        {
+          "id": 16005,
+          "score": 0.8122538924217224,
+          "relevant": true
+        },
+        {
+          "id": 18773,
+          "score": 0.8058923482894897,
+          "relevant": true
+        },
+        {
+          "id": 21274,
+          "score": 0.7981942892074585,
+          "relevant": true
+        },
+        {
+          "id": 18789,
+          "score": 0.7933746576309204,
+          "relevant": true
+        },
+        {
+          "id": 20406,
+          "score": 0.7900376319885254,
+          "relevant": false
+        },
+        {
+          "id": 18678,
+          "score": 0.7886447906494141,
+          "relevant": true
+        },
+        {
+          "id": 18707,
+          "score": 0.7878051996231079,
+          "relevant": true
+        },
+        {
+          "id": 18698,
+          "score": 0.7857917547225952,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "petroleum production opec",
+      "topic": "crude",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 21058,
+          "score": 0.24707891047000885,
+          "relevant": true
+        },
+        {
+          "id": 20030,
+          "score": 0.23189795017242432,
+          "relevant": true
+        },
+        {
+          "id": 16658,
+          "score": 0.22149133682250977,
+          "relevant": true
+        },
+        {
+          "id": 20878,
+          "score": 0.21910758316516876,
+          "relevant": true
+        },
+        {
+          "id": 18213,
+          "score": 0.2119530737400055,
+          "relevant": true
+        },
+        {
+          "id": 17963,
+          "score": 0.20985430479049683,
+          "relevant": true
+        },
+        {
+          "id": 17929,
+          "score": 0.207880437374115,
+          "relevant": true
+        },
+        {
+          "id": 16607,
+          "score": 0.20743423700332642,
+          "relevant": true
+        },
+        {
+          "id": 16649,
+          "score": 0.2018359750509262,
+          "relevant": true
+        },
+        {
+          "id": 19509,
+          "score": 0.19872833788394928,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "petroleum production opec",
+      "topic": "crude",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 20008,
+          "score": 0.7812838554382324,
+          "relevant": true
+        },
+        {
+          "id": 21058,
+          "score": 0.7791211605072021,
+          "relevant": true
+        },
+        {
+          "id": 16658,
+          "score": 0.7580012083053589,
+          "relevant": true
+        },
+        {
+          "id": 19998,
+          "score": 0.754712700843811,
+          "relevant": true
+        },
+        {
+          "id": 19844,
+          "score": 0.753278374671936,
+          "relevant": true
+        },
+        {
+          "id": 17963,
+          "score": 0.733138918876648,
+          "relevant": true
+        },
+        {
+          "id": 20878,
+          "score": 0.7326926589012146,
+          "relevant": true
+        },
+        {
+          "id": 17929,
+          "score": 0.7287999391555786,
+          "relevant": true
+        },
+        {
+          "id": 19506,
+          "score": 0.72843998670578,
+          "relevant": true
+        },
+        {
+          "id": 19559,
+          "score": 0.7230603694915771,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "petroleum production opec",
+      "topic": "crude",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 20008,
+          "score": 0.7912550568580627,
+          "relevant": true
+        },
+        {
+          "id": 19844,
+          "score": 0.7846176624298096,
+          "relevant": true
+        },
+        {
+          "id": 21058,
+          "score": 0.7804343700408936,
+          "relevant": true
+        },
+        {
+          "id": 19998,
+          "score": 0.7706155776977539,
+          "relevant": true
+        },
+        {
+          "id": 19559,
+          "score": 0.76606285572052,
+          "relevant": true
+        },
+        {
+          "id": 17963,
+          "score": 0.7610536813735962,
+          "relevant": true
+        },
+        {
+          "id": 17929,
+          "score": 0.7598774433135986,
+          "relevant": true
+        },
+        {
+          "id": 20878,
+          "score": 0.7543908357620239,
+          "relevant": true
+        },
+        {
+          "id": 19110,
+          "score": 0.7492402791976929,
+          "relevant": true
+        },
+        {
+          "id": 16658,
+          "score": 0.749152660369873,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "oil supply exports",
+      "topic": "crude",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 15923,
+          "score": 0.3029016852378845,
+          "relevant": false
+        },
+        {
+          "id": 19284,
+          "score": 0.25636300444602966,
+          "relevant": false
+        },
+        {
+          "id": 15864,
+          "score": 0.24784743785858154,
+          "relevant": false
+        },
+        {
+          "id": 15853,
+          "score": 0.23933541774749756,
+          "relevant": false
+        },
+        {
+          "id": 15976,
+          "score": 0.23160971701145172,
+          "relevant": false
+        },
+        {
+          "id": 15921,
+          "score": 0.2221614271402359,
+          "relevant": false
+        },
+        {
+          "id": 15906,
+          "score": 0.21368439495563507,
+          "relevant": false
+        },
+        {
+          "id": 15928,
+          "score": 0.21139952540397644,
+          "relevant": false
+        },
+        {
+          "id": 15910,
+          "score": 0.1981143355369568,
+          "relevant": false
+        },
+        {
+          "id": 15922,
+          "score": 0.19674721360206604,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query": "oil supply exports",
+      "topic": "crude",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 15923,
+          "score": 0.7225599884986877,
+          "relevant": false
+        },
+        {
+          "id": 16762,
+          "score": 0.7110598683357239,
+          "relevant": true
+        },
+        {
+          "id": 16080,
+          "score": 0.7060990929603577,
+          "relevant": false
+        },
+        {
+          "id": 14833,
+          "score": 0.7052625417709351,
+          "relevant": false
+        },
+        {
+          "id": 19998,
+          "score": 0.6803044080734253,
+          "relevant": true
+        },
+        {
+          "id": 19110,
+          "score": 0.6660373210906982,
+          "relevant": true
+        },
+        {
+          "id": 15921,
+          "score": 0.6659433841705322,
+          "relevant": false
+        },
+        {
+          "id": 17875,
+          "score": 0.6623570322990417,
+          "relevant": true
+        },
+        {
+          "id": 15910,
+          "score": 0.6531966328620911,
+          "relevant": false
+        },
+        {
+          "id": 15925,
+          "score": 0.6497898101806641,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query": "oil supply exports",
+      "topic": "crude",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 15923,
+          "score": 0.7504841685295105,
+          "relevant": false
+        },
+        {
+          "id": 16080,
+          "score": 0.7490031719207764,
+          "relevant": false
+        },
+        {
+          "id": 14833,
+          "score": 0.7486949563026428,
+          "relevant": false
+        },
+        {
+          "id": 17875,
+          "score": 0.7410334348678589,
+          "relevant": true
+        },
+        {
+          "id": 19110,
+          "score": 0.7358709573745728,
+          "relevant": true
+        },
+        {
+          "id": 18798,
+          "score": 0.7317404747009277,
+          "relevant": false
+        },
+        {
+          "id": 14829,
+          "score": 0.7294492125511169,
+          "relevant": true
+        },
+        {
+          "id": 15351,
+          "score": 0.7255101799964905,
+          "relevant": true
+        },
+        {
+          "id": 15921,
+          "score": 0.7251360416412354,
+          "relevant": false
+        },
+        {
+          "id": 19998,
+          "score": 0.7238518595695496,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "wheat grain exports",
+      "topic": "grain",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 15866,
+          "score": 0.36003822088241577,
+          "relevant": true
+        },
+        {
+          "id": 15870,
+          "score": 0.3440285921096802,
+          "relevant": true
+        },
+        {
+          "id": 15874,
+          "score": 0.33762839436531067,
+          "relevant": true
+        },
+        {
+          "id": 15868,
+          "score": 0.32123371958732605,
+          "relevant": true
+        },
+        {
+          "id": 14841,
+          "score": 0.27874666452407837,
+          "relevant": true
+        },
+        {
+          "id": 15863,
+          "score": 0.26098889112472534,
+          "relevant": true
+        },
+        {
+          "id": 15676,
+          "score": 0.2501196563243866,
+          "relevant": true
+        },
+        {
+          "id": 15999,
+          "score": 0.24583005905151367,
+          "relevant": true
+        },
+        {
+          "id": 15860,
+          "score": 0.24277153611183167,
+          "relevant": true
+        },
+        {
+          "id": 19322,
+          "score": 0.2356162965297699,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "wheat grain exports",
+      "topic": "grain",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 17722,
+          "score": 0.8643697500228882,
+          "relevant": true
+        },
+        {
+          "id": 19821,
+          "score": 0.8643697500228882,
+          "relevant": true
+        },
+        {
+          "id": 21091,
+          "score": 0.8643697500228882,
+          "relevant": true
+        },
+        {
+          "id": 15890,
+          "score": 0.8344523906707764,
+          "relevant": true
+        },
+        {
+          "id": 15863,
+          "score": 0.8090927600860596,
+          "relevant": true
+        },
+        {
+          "id": 15845,
+          "score": 0.8033779859542847,
+          "relevant": true
+        },
+        {
+          "id": 15911,
+          "score": 0.8025363683700562,
+          "relevant": true
+        },
+        {
+          "id": 15914,
+          "score": 0.7968634366989136,
+          "relevant": true
+        },
+        {
+          "id": 15999,
+          "score": 0.7958967685699463,
+          "relevant": true
+        },
+        {
+          "id": 15893,
+          "score": 0.7916107177734375,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "wheat grain exports",
+      "topic": "grain",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 15863,
+          "score": 0.845349907875061,
+          "relevant": true
+        },
+        {
+          "id": 15866,
+          "score": 0.8207996487617493,
+          "relevant": true
+        },
+        {
+          "id": 17722,
+          "score": 0.8128392696380615,
+          "relevant": true
+        },
+        {
+          "id": 19821,
+          "score": 0.8128392696380615,
+          "relevant": true
+        },
+        {
+          "id": 21091,
+          "score": 0.8128392696380615,
+          "relevant": true
+        },
+        {
+          "id": 15999,
+          "score": 0.8086565732955933,
+          "relevant": true
+        },
+        {
+          "id": 15842,
+          "score": 0.8039804697036743,
+          "relevant": true
+        },
+        {
+          "id": 15890,
+          "score": 0.799572229385376,
+          "relevant": true
+        },
+        {
+          "id": 15874,
+          "score": 0.7977821826934814,
+          "relevant": true
+        },
+        {
+          "id": 15911,
+          "score": 0.7953796982765198,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "corn crop harvest",
+      "topic": "grain",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 15877,
+          "score": 0.3607290983200073,
+          "relevant": true
+        },
+        {
+          "id": 19480,
+          "score": 0.2801910638809204,
+          "relevant": false
+        },
+        {
+          "id": 21123,
+          "score": 0.27225786447525024,
+          "relevant": true
+        },
+        {
+          "id": 15846,
+          "score": 0.24096213281154633,
+          "relevant": false
+        },
+        {
+          "id": 20637,
+          "score": 0.22573231160640717,
+          "relevant": true
+        },
+        {
+          "id": 15643,
+          "score": 0.2183435708284378,
+          "relevant": false
+        },
+        {
+          "id": 16012,
+          "score": 0.21491114795207977,
+          "relevant": true
+        },
+        {
+          "id": 17848,
+          "score": 0.21419622004032135,
+          "relevant": false
+        },
+        {
+          "id": 15844,
+          "score": 0.2071865350008011,
+          "relevant": true
+        },
+        {
+          "id": 15686,
+          "score": 0.2071438878774643,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "corn crop harvest",
+      "topic": "grain",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 15846,
+          "score": 0.890805184841156,
+          "relevant": false
+        },
+        {
+          "id": 15844,
+          "score": 0.8658474683761597,
+          "relevant": true
+        },
+        {
+          "id": 17722,
+          "score": 0.864267110824585,
+          "relevant": true
+        },
+        {
+          "id": 19821,
+          "score": 0.864267110824585,
+          "relevant": true
+        },
+        {
+          "id": 21091,
+          "score": 0.864267110824585,
+          "relevant": true
+        },
+        {
+          "id": 15845,
+          "score": 0.8570518493652344,
+          "relevant": true
+        },
+        {
+          "id": 15866,
+          "score": 0.84874427318573,
+          "relevant": true
+        },
+        {
+          "id": 15863,
+          "score": 0.8473917245864868,
+          "relevant": true
+        },
+        {
+          "id": 15890,
+          "score": 0.846998393535614,
+          "relevant": true
+        },
+        {
+          "id": 15388,
+          "score": 0.8458685278892517,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "corn crop harvest",
+      "topic": "grain",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 17722,
+          "score": 0.8545560836791992,
+          "relevant": true
+        },
+        {
+          "id": 19821,
+          "score": 0.8545560836791992,
+          "relevant": true
+        },
+        {
+          "id": 21091,
+          "score": 0.8545560836791992,
+          "relevant": true
+        },
+        {
+          "id": 15844,
+          "score": 0.8506529331207275,
+          "relevant": true
+        },
+        {
+          "id": 15863,
+          "score": 0.8466389179229736,
+          "relevant": true
+        },
+        {
+          "id": 15845,
+          "score": 0.8455780744552612,
+          "relevant": true
+        },
+        {
+          "id": 15866,
+          "score": 0.836751401424408,
+          "relevant": true
+        },
+        {
+          "id": 15846,
+          "score": 0.8344196677207947,
+          "relevant": false
+        },
+        {
+          "id": 15876,
+          "score": 0.8265209197998047,
+          "relevant": false
+        },
+        {
+          "id": 15865,
+          "score": 0.8120396733283997,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query": "grain supply agriculture",
+      "topic": "grain",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 15914,
+          "score": 0.2377167046070099,
+          "relevant": true
+        },
+        {
+          "id": 19284,
+          "score": 0.22695392370224,
+          "relevant": false
+        },
+        {
+          "id": 15844,
+          "score": 0.22061142325401306,
+          "relevant": true
+        },
+        {
+          "id": 15842,
+          "score": 0.2187858670949936,
+          "relevant": true
+        },
+        {
+          "id": 21123,
+          "score": 0.2158505916595459,
+          "relevant": true
+        },
+        {
+          "id": 15866,
+          "score": 0.21429377794265747,
+          "relevant": true
+        },
+        {
+          "id": 21530,
+          "score": 0.21077288687229156,
+          "relevant": true
+        },
+        {
+          "id": 15976,
+          "score": 0.20504024624824524,
+          "relevant": false
+        },
+        {
+          "id": 15928,
+          "score": 0.19532617926597595,
+          "relevant": true
+        },
+        {
+          "id": 14841,
+          "score": 0.19220435619354248,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "grain supply agriculture",
+      "topic": "grain",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 15893,
+          "score": 0.7278106808662415,
+          "relevant": true
+        },
+        {
+          "id": 15914,
+          "score": 0.7140729427337646,
+          "relevant": true
+        },
+        {
+          "id": 15928,
+          "score": 0.7097864151000977,
+          "relevant": true
+        },
+        {
+          "id": 15860,
+          "score": 0.7084823846817017,
+          "relevant": true
+        },
+        {
+          "id": 18297,
+          "score": 0.7060332298278809,
+          "relevant": true
+        },
+        {
+          "id": 15863,
+          "score": 0.7041971683502197,
+          "relevant": true
+        },
+        {
+          "id": 17722,
+          "score": 0.693508505821228,
+          "relevant": true
+        },
+        {
+          "id": 19821,
+          "score": 0.693508505821228,
+          "relevant": true
+        },
+        {
+          "id": 21091,
+          "score": 0.693508505821228,
+          "relevant": true
+        },
+        {
+          "id": 15846,
+          "score": 0.6887214183807373,
+          "relevant": false
+        }
+      ]
+    },
+    {
+      "query": "grain supply agriculture",
+      "topic": "grain",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 15863,
+          "score": 0.7936792969703674,
+          "relevant": true
+        },
+        {
+          "id": 15999,
+          "score": 0.7706685066223145,
+          "relevant": true
+        },
+        {
+          "id": 15860,
+          "score": 0.7700028419494629,
+          "relevant": true
+        },
+        {
+          "id": 15893,
+          "score": 0.7665309309959412,
+          "relevant": true
+        },
+        {
+          "id": 15842,
+          "score": 0.7649279236793518,
+          "relevant": true
+        },
+        {
+          "id": 15856,
+          "score": 0.7625753879547119,
+          "relevant": true
+        },
+        {
+          "id": 15866,
+          "score": 0.761273205280304,
+          "relevant": true
+        },
+        {
+          "id": 15844,
+          "score": 0.7588791251182556,
+          "relevant": true
+        },
+        {
+          "id": 15582,
+          "score": 0.7520854473114014,
+          "relevant": true
+        },
+        {
+          "id": 15874,
+          "score": 0.7516986131668091,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "international trade deficit",
+      "topic": "trade",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 20082,
+          "score": 0.326928973197937,
+          "relevant": false
+        },
+        {
+          "id": 18061,
+          "score": 0.3173017203807831,
+          "relevant": true
+        },
+        {
+          "id": 16125,
+          "score": 0.31598421931266785,
+          "relevant": true
+        },
+        {
+          "id": 21562,
+          "score": 0.30455490946769714,
+          "relevant": true
+        },
+        {
+          "id": 20682,
+          "score": 0.26199325919151306,
+          "relevant": true
+        },
+        {
+          "id": 15386,
+          "score": 0.2558766305446625,
+          "relevant": true
+        },
+        {
+          "id": 17916,
+          "score": 0.24926553666591644,
+          "relevant": false
+        },
+        {
+          "id": 18496,
+          "score": 0.24720770120620728,
+          "relevant": true
+        },
+        {
+          "id": 21392,
+          "score": 0.23361888527870178,
+          "relevant": true
+        },
+        {
+          "id": 16745,
+          "score": 0.2278723418712616,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "international trade deficit",
+      "topic": "trade",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 20082,
+          "score": 0.754561185836792,
+          "relevant": false
+        },
+        {
+          "id": 19569,
+          "score": 0.6553733944892883,
+          "relevant": true
+        },
+        {
+          "id": 17924,
+          "score": 0.6457602977752686,
+          "relevant": true
+        },
+        {
+          "id": 17926,
+          "score": 0.6452077031135559,
+          "relevant": true
+        },
+        {
+          "id": 15428,
+          "score": 0.6374548673629761,
+          "relevant": true
+        },
+        {
+          "id": 18061,
+          "score": 0.6283165216445923,
+          "relevant": true
+        },
+        {
+          "id": 15646,
+          "score": 0.6281368136405945,
+          "relevant": true
+        },
+        {
+          "id": 15386,
+          "score": 0.6208586096763611,
+          "relevant": true
+        },
+        {
+          "id": 15793,
+          "score": 0.6121886372566223,
+          "relevant": false
+        },
+        {
+          "id": 16125,
+          "score": 0.6105619668960571,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "international trade deficit",
+      "topic": "trade",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 20082,
+          "score": 0.7675611972808838,
+          "relevant": false
+        },
+        {
+          "id": 17924,
+          "score": 0.7342174053192139,
+          "relevant": true
+        },
+        {
+          "id": 17926,
+          "score": 0.7294192314147949,
+          "relevant": true
+        },
+        {
+          "id": 15646,
+          "score": 0.7286926507949829,
+          "relevant": true
+        },
+        {
+          "id": 18061,
+          "score": 0.7245866656303406,
+          "relevant": true
+        },
+        {
+          "id": 19569,
+          "score": 0.7237194776535034,
+          "relevant": true
+        },
+        {
+          "id": 15793,
+          "score": 0.7106223106384277,
+          "relevant": false
+        },
+        {
+          "id": 15428,
+          "score": 0.7089776992797852,
+          "relevant": true
+        },
+        {
+          "id": 21392,
+          "score": 0.7021474838256836,
+          "relevant": true
+        },
+        {
+          "id": 18496,
+          "score": 0.6934442520141602,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "import export tariffs",
+      "topic": "trade",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 16932,
+          "score": 0.19507959485054016,
+          "relevant": true
+        },
+        {
+          "id": 17449,
+          "score": 0.18122412264347076,
+          "relevant": true
+        },
+        {
+          "id": 15223,
+          "score": 0.16271625459194183,
+          "relevant": true
+        },
+        {
+          "id": 19835,
+          "score": 0.14376866817474365,
+          "relevant": false
+        },
+        {
+          "id": 16088,
+          "score": 0.14274175465106964,
+          "relevant": true
+        },
+        {
+          "id": 17948,
+          "score": 0.13881231844425201,
+          "relevant": true
+        },
+        {
+          "id": 17511,
+          "score": 0.13571268320083618,
+          "relevant": true
+        },
+        {
+          "id": 17875,
+          "score": 0.13537216186523438,
+          "relevant": false
+        },
+        {
+          "id": 19539,
+          "score": 0.13500016927719116,
+          "relevant": true
+        },
+        {
+          "id": 19947,
+          "score": 0.13492326438426971,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "import export tariffs",
+      "topic": "trade",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 20511,
+          "score": 0.7403813004493713,
+          "relevant": true
+        },
+        {
+          "id": 19835,
+          "score": 0.732146143913269,
+          "relevant": false
+        },
+        {
+          "id": 14858,
+          "score": 0.7274780869483948,
+          "relevant": true
+        },
+        {
+          "id": 19947,
+          "score": 0.7248541116714478,
+          "relevant": true
+        },
+        {
+          "id": 16627,
+          "score": 0.7217167019844055,
+          "relevant": false
+        },
+        {
+          "id": 20461,
+          "score": 0.7197796106338501,
+          "relevant": true
+        },
+        {
+          "id": 21080,
+          "score": 0.7189923524856567,
+          "relevant": false
+        },
+        {
+          "id": 18352,
+          "score": 0.7100845575332642,
+          "relevant": false
+        },
+        {
+          "id": 18150,
+          "score": 0.7081257700920105,
+          "relevant": false
+        },
+        {
+          "id": 19555,
+          "score": 0.7072843909263611,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "import export tariffs",
+      "topic": "trade",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 16932,
+          "score": 0.7430285811424255,
+          "relevant": true
+        },
+        {
+          "id": 15262,
+          "score": 0.7262046337127686,
+          "relevant": true
+        },
+        {
+          "id": 16752,
+          "score": 0.7189488410949707,
+          "relevant": false
+        },
+        {
+          "id": 16929,
+          "score": 0.7173453569412231,
+          "relevant": true
+        },
+        {
+          "id": 16627,
+          "score": 0.7161608934402466,
+          "relevant": false
+        },
+        {
+          "id": 17511,
+          "score": 0.7149121761322021,
+          "relevant": true
+        },
+        {
+          "id": 16763,
+          "score": 0.714697003364563,
+          "relevant": true
+        },
+        {
+          "id": 16790,
+          "score": 0.714697003364563,
+          "relevant": true
+        },
+        {
+          "id": 20511,
+          "score": 0.7138969898223877,
+          "relevant": true
+        },
+        {
+          "id": 20441,
+          "score": 0.7092716693878174,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "trade surplus japan",
+      "topic": "trade",
+      "method": "tfidf",
+      "top10": [
+        {
+          "id": 15428,
+          "score": 0.5648596286773682,
+          "relevant": true
+        },
+        {
+          "id": 19569,
+          "score": 0.5180349349975586,
+          "relevant": true
+        },
+        {
+          "id": 19044,
+          "score": 0.37887564301490784,
+          "relevant": true
+        },
+        {
+          "id": 15430,
+          "score": 0.37038272619247437,
+          "relevant": true
+        },
+        {
+          "id": 19568,
+          "score": 0.36856499314308167,
+          "relevant": false
+        },
+        {
+          "id": 19062,
+          "score": 0.3521137535572052,
+          "relevant": true
+        },
+        {
+          "id": 16052,
+          "score": 0.3101268410682678,
+          "relevant": true
+        },
+        {
+          "id": 15793,
+          "score": 0.2459496110677719,
+          "relevant": false
+        },
+        {
+          "id": 15721,
+          "score": 0.2413979172706604,
+          "relevant": false
+        },
+        {
+          "id": 20757,
+          "score": 0.23472139239311218,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "trade surplus japan",
+      "topic": "trade",
+      "method": "cbow",
+      "top10": [
+        {
+          "id": 20082,
+          "score": 0.7682638764381409,
+          "relevant": false
+        },
+        {
+          "id": 19569,
+          "score": 0.7424634695053101,
+          "relevant": true
+        },
+        {
+          "id": 17511,
+          "score": 0.7281661629676819,
+          "relevant": true
+        },
+        {
+          "id": 17924,
+          "score": 0.713520884513855,
+          "relevant": true
+        },
+        {
+          "id": 19062,
+          "score": 0.7104489803314209,
+          "relevant": true
+        },
+        {
+          "id": 17948,
+          "score": 0.7091598510742188,
+          "relevant": true
+        },
+        {
+          "id": 17926,
+          "score": 0.7090368270874023,
+          "relevant": true
+        },
+        {
+          "id": 15386,
+          "score": 0.7085708379745483,
+          "relevant": true
+        },
+        {
+          "id": 16256,
+          "score": 0.6880905628204346,
+          "relevant": true
+        },
+        {
+          "id": 15428,
+          "score": 0.6795749664306641,
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "query": "trade surplus japan",
+      "topic": "trade",
+      "method": "sg",
+      "top10": [
+        {
+          "id": 19569,
+          "score": 0.8031901121139526,
+          "relevant": true
+        },
+        {
+          "id": 15428,
+          "score": 0.789226770401001,
+          "relevant": true
+        },
+        {
+          "id": 17924,
+          "score": 0.7647413015365601,
+          "relevant": true
+        },
+        {
+          "id": 19568,
+          "score": 0.7637550234794617,
+          "relevant": false
+        },
+        {
+          "id": 17926,
+          "score": 0.7594957947731018,
+          "relevant": true
+        },
+        {
+          "id": 20082,
+          "score": 0.7472549080848694,
+          "relevant": false
+        },
+        {
+          "id": 19062,
+          "score": 0.7470921277999878,
+          "relevant": true
+        },
+        {
+          "id": 17511,
+          "score": 0.7383987903594971,
+          "relevant": true
+        },
+        {
+          "id": 17948,
+          "score": 0.7334909439086914,
+          "relevant": true
+        },
+        {
+          "id": 15793,
+          "score": 0.7331092357635498,
+          "relevant": false
+        }
+      ]
+    }
+  ],
+  "query_count": 15
+}

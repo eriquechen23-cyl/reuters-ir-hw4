@@ -1,0 +1,14 @@
+{
+  "oil": "CBOW 的 petroleum、crude、fuel 與石油概念相關；natural 可能來自 natural gas 的搭配。kernel 較出乎預期，可能反映 kernel oil 等植物油語境，需回查原文。Skip-Gram 的 crude、gas、exploration 以能源產業情境為主。",
+  "petroleum": "兩個模型都找到 oil，符合相關概念的預期。CBOW 的 energy、exploration、gas 顯示產業與作業情境；cooper 與 Skip-Gram 的 cnp、dmp、apea 等專名或縮寫則可能反映特定新聞事件，不能直接視為同義詞。",
+  "profit": "兩模型的第一名都是反義詞 loss，cosine 分別約 0.698 與 0.769。profits 是詞形關係；net、turnover 是財報情境。swissair 等專名或縮寫較出乎預期，可能由公司財報固定句型與有限語料造成，需回查原文。",
+  "loss": "CBOW 的 profit 是反義關係；net、oper、discontinued、extraordinary 與損益報表用語相關。Skip-Gram 的 gca、mlnm、dasa 等縮寫不容易單憑字面解釋；向量可能記住報表句型或公司事件，不能聲稱它們就是 loss 的同義詞。",
+  "earnings": "profits、income 具有合理的財務概念關係；revenues 與 earnings 並不等義。Skip-Gram 的 audited、unaudited 互為相反的修飾方向，卻共享財報情境；ivaco 屬需回查的專名，展示了語境相似與詞義相同的差別。",
+  "acquisition": "CBOW 的 transaction、merger、purchase、acquire 是相關事件或詞形，並非每個都可互換。Skip-Gram 出現 cz、cbtb 等縮寫，可能與特定收購交易的新聞集中出現有關；這是待驗證的解釋。",
+  "merger": "CBOW 的 acquisition 是合理的同主題關係；litigation、terminated 可能反映併購爭議或終止的情境。Skip-Gram 的 Top-5 多為專名／縮寫，未把 acquisition 排入前五，顯示小語料模型可能偏向特定事件，不能預設 Skip-Gram 較好。",
+  "wheat": "CBOW 的 corn、barley、soybeans 是農產品同類關係，grain/grains 是較廣的類別。Skip-Gram 的 durum、winter 與小麥種類或搭配相關；awb 等縮寫須回查原文。相近詞不是所有新聞都可互換的查詢詞。",
+  "grain": "wheat、corn、soybeans 與 grain 有類別／實例關係；feed 與 coarse 可能來自飼料穀物、粗糧等搭配。grains 是詞形變化。整體情境合理，但不應將 grain 與每種作物判成同義詞。",
+  "trade": "CBOW 的 bilateral、imports、gatt 與貿易情境相關，yeutter、shilling 等專名或詞項需要回查。Skip-Gram 的 threatens、deplore、tensions 偏向貿易爭端的敘事語境；這些詞不是 trade 的同義詞，可能反映語料的事件偏向。",
+  "export": "exports/exporters 是詞形或參與者關係；import 與 export 方向相反但共享貿易情境。surcharge、insuring、enhancement 等可能源自政策或融資搭配；cuba、malt 等鄰居顯示地區／商品情境，成因需回查。",
+  "import": "imports、imported 屬詞形關係；duties、levies、subsidies 與關稅政策相關。Skip-Gram 的 relax、simplify、retender 更像政策或招標動作，而非同義詞，可能受到短語搭配及有限語料的影響。"
+}

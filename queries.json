@@ -1,0 +1,17 @@
+[
+  {"query":"corporate profit earnings", "topic":"earn"},
+  {"query":"quarterly net income", "topic":"earn"},
+  {"query":"company loss results", "topic":"earn"},
+  {"query":"company acquisition merger", "topic":"acq"},
+  {"query":"takeover bid shares", "topic":"acq"},
+  {"query":"purchase stake company", "topic":"acq"},
+  {"query":"crude oil prices", "topic":"crude"},
+  {"query":"petroleum production opec", "topic":"crude"},
+  {"query":"oil supply exports", "topic":"crude"},
+  {"query":"wheat grain exports", "topic":"grain"},
+  {"query":"corn crop harvest", "topic":"grain"},
+  {"query":"grain supply agriculture", "topic":"grain"},
+  {"query":"international trade deficit", "topic":"trade"},
+  {"query":"import export tariffs", "topic":"trade"},
+  {"query":"trade surplus japan", "topic":"trade"}
+]

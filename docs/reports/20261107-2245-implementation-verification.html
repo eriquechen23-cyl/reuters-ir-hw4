@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reuters Streamlit 實作與驗證報告</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f2937;
+      --muted: #64748b;
+      --line: #d8dee8;
+      --panel: #f8fafc;
+      --accent: #0f766e;
+      --warn: #b45309;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, "Noto Sans TC", sans-serif;
+      color: var(--ink);
+      background: #ffffff;
+      line-height: 1.55;
+    }
+
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 40px 24px 64px;
+    }
+
+    header {
+      border-bottom: 2px solid var(--line);
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      border-bottom: 1px solid var(--line);
+      font-size: 20px;
+      margin-top: 32px;
+      padding-bottom: 8px;
+    }
+
+    .meta {
+      color: var(--muted);
+      display: grid;
+      gap: 4px;
+      font-size: 14px;
+    }
+
+    .status {
+      background: var(--panel);
+      border-left: 4px solid var(--accent);
+      margin: 20px 0;
+      padding: 14px 16px;
+    }
+
+    .risk {
+      border-left-color: var(--warn);
+    }
+
+    .flow-diagram {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      margin: 16px 0;
+      overflow-x: auto;
+      padding: 16px;
+    }
+
+    .flow-diagram svg {
+      display: block;
+      min-width: 720px;
+      width: 100%;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th,
+    td {
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--panel);
+    }
+
+    code {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      padding: 1px 5px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Reuters Streamlit 實作與驗證報告</h1>
+      <div class="meta">
+        <div><strong>Milestone:</strong> 實作完成與本機驗證</div>
+        <div><strong>Project:</strong> Information Retrieval HW4</div>
+        <div><strong>Generated:</strong> 2026-11-07 Asia/Taipei</div>
+        <div><strong>Author:</strong> Codex</div>
+      </div>
+    </header>
+
+    <section class="status">
+      <strong>Status:</strong> 網頁、實測模型、15 題評估、一頁 PDF 完成。公開部署待登入及儲存庫目標。
+    </section>
+
+    <section>
+      <h2>Current Situation Description</h2>
+      <p>原始資料夾僅有作業文件；已建立完整可執行 Python 專案。保留 ModApte TRAIN 9603 / TEST 3299，包含 UNPROC TEXT。</p>
+    </section>
+
+    <section>
+      <h2>Context</h2>
+      <p>使用者要求方便報告的 Streamlit 網頁與一頁式報告，心得須包含對 Semantic 的理解。網頁按研究問題、搜尋比較、詞向量觀察、實驗結果、心得排列。</p>
+    </section>
+
+    <section>
+      <h2>Architecture And Decisions</h2>
+      <ul>
+        <li>TRAIN 擬合詞彙表、IDF、CBOW 與 Skip-Gram；TEST 全部作為候選。topic 只用於評估。</li>
+        <li>預先訓練並保存安全的 JSON/NPY/NPZ 產物，Streamlit 僅載入快取，展示時不需下載或訓練。</li>
+        <li>保留使用者的 Semantic 觀點，補充向量／上下文相似與同義、反義、檢索意圖的區別；由 profit-loss 的實測鄰近關係支持。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Architecture Flow Diagram</h2>
+      <figure class="flow-diagram" aria-label="Architecture flow diagram">
+        <svg viewBox="0 0 900 260" role="img" aria-labelledby="flow-title flow-desc" xmlns="http://www.w3.org/2000/svg">
+          <title id="flow-title">資料與展示流程</title>
+          <desc id="flow-desc">Reuters 官方資料分割，訓練模型，再經 Streamlit 查詢與報告輸出。</desc>
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e"></path>
+            </marker>
+          </defs>
+          <rect x="24" y="72" width="150" height="72" rx="6" fill="#f8fafc" stroke="#d8dee8"></rect>
+          <text x="99" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Reuters SGML</text>
+          <text x="99" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">ModApte / TRAIN + TEST</text>
+
+          <line x1="190" y1="108" x2="270" y2="108" stroke="#0f766e" stroke-width="2" marker-end="url(#arrow)"></line>
+
+          <rect x="286" y="72" width="150" height="72" rx="6" fill="#f8fafc" stroke="#d8dee8"></rect>
+          <text x="361" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">TRAIN models</text>
+          <text x="361" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">TF-IDF / CBOW / SG</text>
+
+          <line x1="452" y1="108" x2="532" y2="108" stroke="#0f766e" stroke-width="2" marker-end="url(#arrow)"></line>
+
+          <rect x="548" y="72" width="150" height="72" rx="6" fill="#f8fafc" stroke="#d8dee8"></rect>
+          <text x="623" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">TEST retrieval</text>
+          <text x="623" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">15 queries / topic labels</text>
+
+          <line x1="714" y1="108" x2="794" y2="108" stroke="#0f766e" stroke-width="2" marker-end="url(#arrow)"></line>
+
+          <rect x="810" y="72" width="66" height="72" rx="6" fill="#f8fafc" stroke="#d8dee8"></rect>
+          <text x="843" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">UI</text>
+          <text x="843" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">PDF</text>
+
+          <text x="24" y="204" font-family="Arial, sans-serif" font-size="13" fill="#64748b">Streamlit 以同一索引呈現搜尋、Top-5 鄰居、指標與心得；一頁 PDF 由實測 JSON 產生。</text>
+        </svg>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Implementation Notes</h2>
+      <p>retrieval.py 自行實作前處理、TF/DF/IDF、正規化與評估。prepare.py 使用 Gensim 最佳化 Word2Vec；app.py 提供三欄對照、英文查詢、OOV 提示、PCA 與 12 組詞鄰居解讀。</p>
+    </section>
+
+    <section>
+      <h2>Changed Or Planned Files</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>File</th>
+            <th>Purpose</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>app.py / retrieval.py / prepare.py / artifacts / reports</code></td>
+            <td>展示、檢索、訓練、固定產物、一頁報告</td>
+            <td>完成</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Verification</h2>
+      <p>8 項 unittest / Streamlit AppTest 通過；包括公式手算、ModApte 過濾與 UNPROC 解析、資料無洩漏、產物雜湊、空白與 OOV、45 筆指標重算、全部五頁切換。pip check 無相依衝突。瀏覽器已檢查首頁與三欄搜尋。PDF 經 pypdf 確認一頁，Poppler 轉圖後人工視覺檢查無裁切或缺字。</p>
+    </section>
+
+    <section>
+      <h2>Next Step Recommendations</h2>
+      <p>依 reports/presentation.md 演練；填寫姓名學號；登入 Streamlit 後指定 GitHub 儲存庫，Python 3.12、入口 app.py，完成雲端部署與線上驗證。</p>
+    </section>
+
+    <section class="status risk">
+      <strong>Risks And Follow-ups:</strong> 15 個人工設計查詢、單一種子與 topic 代理相關性不可支持普遍優劣；平均向量忽略詞序及否定。雲端未部署，尚無公開網址。初次下載中斷已改用官方 URL 編碼並加入重試。
+    </section>
+  </main>
+</body>
+</html>
