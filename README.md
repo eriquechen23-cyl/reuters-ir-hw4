@@ -1,5 +1,7 @@
 # Reuters 新聞檢索實驗
 
+**系統網址**：[開啟 Reuters 新聞檢索系統](https://eriquechen23-cyl-reuters-ir-hw4-app-0ytgnp.streamlit.app/)
+
 Streamlit 展示網頁與 A4 一頁報告。五段流程：研究問題、搜尋比較、詞向量觀察、實驗結果、心得與報告。每段有可關閉的口頭講稿提示。
 
 ## 本機執行
